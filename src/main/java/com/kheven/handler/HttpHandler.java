@@ -1,6 +1,6 @@
 package com.kheven.handler;
 
-import com.kheven.http.Request;
+import com.kheven.model.Request;
 import com.kheven.http.Response;
 import com.kheven.model.Route;
 import com.kheven.http.Router;

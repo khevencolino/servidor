@@ -28,6 +28,8 @@ public class HttpServer {
      */
     public HttpServer() {
         this.port = Config.getPort();
+        // this.executor = Executors.newThreadPerTaskExecutor(Executors.defaultThreadFactory());
+        // this.executor = Executors.newCachedThreadPool();
         this.executor = Executors.newVirtualThreadPerTaskExecutor();
         this.router = new Router();
         this.statusReporter = Executors.newSingleThreadScheduledExecutor();

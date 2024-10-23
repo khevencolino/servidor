@@ -1,4 +1,4 @@
-package com.kheven.http;
+package com.kheven.model;
 
 import java.util.Map;
 
